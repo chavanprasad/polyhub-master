@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.button{
+    background-color: #06D6A0;
+    border: none;
+}
+.button:hover{
+    background-color: #fff;
+    color:#000;
+    border: 1px solid ;
+    border-color:#06D6A0;
+}
+
+.restaurantCard{
+    padding-bottom: .50em;
+    box-shadow: "2px 3px 2px #9E9E9E";
+    border: none;
+}
+.restaurantCardChild{
+    border: none;
+}
+.itemCard{
+    padding-bottom: .50em;
+    box-shadow: "2px 3px 2px #9E9E9E";
+}
+
+
+.welcomeMessage{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url("../../assets/images/noodles.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4em;
+}
+.welcomeMessage h1{
+    font-family:  Roboto, sans-serif;
+    color:#fff;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+}
